@@ -1,0 +1,108 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/xeo4hxy.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="shortcut icon" href="favicon.ico">
+  <title>Daria Babco</title>
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script> 
+
+    <script type="text/javascript">
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+</script>
+<script type="text/javascript" src="script.js"></script> 
+</head>
+<body>
+
+ <div class="overheader">
+ 	<div class="Quickpay-header">
+
+		<div  data-include="header"></div>
+		</div>
+ 	
+	</div>
+</div>
+	
+
+<div id="raster">
+	<div id="cv">
+		<div class="zelle-1"><h3>Quickpay</h3></div>
+		<div class="zelle-1">
+			<h5>Type</h5>
+			<p>App Concept</p><br><br>
+			<h5>Year</h5>
+			<p>2017</p><br><br>
+			<h5>Team</h5>
+			<p>Natalie Letschert<br>Hellen Oelschläger<br>Daria Babco</p><br><br>
+			<h5>Role</h5>
+			<p>UI, Interaction Flow</p><br><br>
+		</div>
+
+		<div class="zelle-2">
+			<h5>Description</h5>
+			<p>Paying with cash will be more and more superseded. It’s no problem to pay without cash at big retail chains but there’s no option for your favorite bakery around the corner yet. Quickpay offers two simple payment methods. One using NFC and one via e-mail. NFC-Payment is the perfect solution to pay cashless in small shops.<br><br>
+
+We develeoped this app concept during the navigation design course in cooperation with sovanta AG a company providing software solutions. </p>
+			
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<div id="raster">
+	<div id="cv">
+		<div class="zelle-2">
+			<img src="img/quickpay_payment2.gif" width="100%">
+		</div>
+
+		<div class="zelle-2">
+			<div class="parent-vertical-align">
+			<div class="vertical-align">
+			<h5>Payment Process</h5>
+			<p>We made the payment process as simple as it can be.<br><br>This is the core function of the app and you should be able to fulfill the task quickly without being confused about interactions being too abstract. We broke the process into small pieces to fit into the screen, so everything is in reach of a tap without the need to scroll.</p>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div id="raster">
+	<img id="quickpay_mainscreen" src="img/quickpay_mainscreen.png">
+</div>
+
+<div class="clear"></div>
+<div class="spacing"></div>
+<div class="spacing-mobile"></div>
+<div id="raster">
+	<div id="cv">
+		<div class="zelle-2">
+			<h5>Branding</h5>
+			<p>Post Grotesk is a clean typeface with maximum usability and provides an overall sense of neurality. It is a very rational typeface, the perfect fit for an app handling your money. Despite this, Post Grotesk doesn't feel clinical or cold – with it's looseness and flared terminals it provides the feeling of interacting with a loyal friend and not a service provider.<br><br>The colors were chosen by a similar approach. The main color, the sky blue, is both a rational but friendly color. We didn't use any red color. This would be associated with errors when transfering money. Instead we chose a muted orange for the outgoing payments.</p>
+	
+		</div>
+	
+		<div class="zelle-2">
+			<img src="img/brand_quickpay.png" width="100%">
+		</div>
+
+		
+	</div>
+</div>
+
+<div class="clear"></div>
+
+
+<div  data-include="footer"></div>
+
+
+
+</body>
+</html>

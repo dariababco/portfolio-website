@@ -1,0 +1,104 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/xeo4hxy.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="shortcut icon" href="favicon.ico">
+  <title>Daria Babco</title>
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script> 
+
+    <script type="text/javascript">
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+</script>
+<script type="text/javascript" src="script.js"></script> 
+</head>
+<body>
+
+ <div class="overheader">
+ 	<div class="ninetofive-header">
+
+		<div  data-include="header"></div>
+		</div>
+ 	
+	</div>
+</div>
+	
+
+<div id="raster">
+	<div id="cv">
+		<div class="zelle-1"><h3>9-to-5</h3></div>
+		<div class="zelle-1">
+			<h5>Type</h5>
+			<p>Disobedient Object</p><br><br>
+			<h5>Year</h5>
+			<p>2017</p><br><br>
+			<h5>Tasks</h5>
+			<p>Idea, Realization, Code, Documentation</p><br><br>
+		</div>
+
+		<div class="zelle-2">
+			<h5>Description</h5>
+			<p>Working overtime is part of the job. It is part of your daily routine. And you know that it doesn't do much for your productivity, your health and your life. Probably, you don't even have all of your overtime hours on track.<br><br>This machine prompts awareness to end your work day on time, by ringing the alarm clock at 5.00pm and triggering the curtain to go down. This is the signal for you to go home.<br><br>The machine was built during the interaction design course. The task was to build a disobedient object which draws attention to social problems.</p>
+			
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+
+
+	<img id="ntf_material" src="img/25351160856785.5a5bde184f164.png">
+<div id="raster">
+	<div id="cv">
+				<div class="zelle-2">
+					<div class="parent-vertical-align">
+							<div class="vertical-align">
+								<h5>Construction</h5>
+									<p>The roll-up curtains are moved by the stepper motor. It is connected to an alarm clock. When the alarm on the clock goes off, it is sending a signal to the arduino which triggers the motor. To get the signal of the alarm clock, we need a clicker. And to get the click to start the movement, we need some code. <br><br> The clicker sends an analog signal. An analog signal gives out values beween 0 and 1023. When we get the number 1023, we trigger the motor to do 2000 steps.</p>
+							</div>
+					</div>
+				</div>
+	
+		<div class="zelle-2">
+				<div class="parent-vertical-align">
+							<div class="vertical-align">
+			<img src="img/code.png" width="100%">
+		</div></div>
+		</div>
+	</div>
+
+</div>
+
+<div class="clear"></div>
+<div class="blackwrapper">
+	<div id="raster">
+		<img id="quickpay_mainscreen" src="img/ntf_videos.gif">
+	</div>
+</div>
+
+<div class="clear"></div>
+<div class="spacing"></div>
+<div class="spacing-mobile"></div>
+<div id="raster">
+	
+		<video class='center' src="img/9to5.mp4" controls></video>
+
+</div>
+
+<div class="clear"></div>
+
+
+<div  data-include="footer"></div>
+
+
+
+</body>
+</html>

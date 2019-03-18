@@ -1,0 +1,131 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/xeo4hxy.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="shortcut icon" href="favicon.ico">
+  <title>Daria Babco</title>
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script> 
+
+    <script type="text/javascript">
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = $(this).data('include') + '.html';
+      $(this).load(file);
+    });
+  });
+</script>
+<script type="text/javascript" src="script.js"></script> 
+</head>
+<body>
+
+ <div class="overheader">
+ 	<div class="roqy-header">
+
+		<div  data-include="header"></div>
+		</div>
+ 	
+	</div>
+</div>
+	
+
+<div id="raster">
+	<div id="cv">
+		<div class="zelle-1"><h3>ROQY</h3></div>
+		<div class="zelle-1">
+			<h5>Type</h5>
+			<p>Web Application</p><br><br>
+			<h5>Year</h5>
+			<p>2017</p><br><br>
+			<h5>Team</h5>
+			<p>Sohebullah Abdi<br>
+				Daria Babco<br>
+				David Casparby<br>
+				Madrid Dajsinani<br>
+				Anna Deis<br>
+				Berna Koca<br>
+				Moritz Mundhenke<br>
+				Manuel Schwalm<br>
+				Özkan Uenlue<br>
+				Eva-Marie Uhl</p>
+<br><br>
+			<h5>Role</h5>
+			<p>UI, UX, Interaction Flow</p><br><br>
+		</div>
+
+		<div class="zelle-2">
+			<h5>Description</h5>
+			<p>We developed ROQY in a team of six developers and four designers. It was a module from the computer science studies where the company Liveperson gave us the task to build a web-based chatbot-configurator.<br><br>Big Companies with many customers get a lot of recurring requests. With a chatbot you can automate these inquiries. Customers get a quick answer because they don't have to wait until an employee answers them and the customer agents have more time for important tasks. (Or get fired because ROQY does everything, but unemployment because of automatisation is another topic we can discuss about for hours next time!)<br><br>In the last few years Conversational UIs became a big topic in the design world. Some argue that they are the future of the web interface. With the big tech companies jumping onto this trend this might be true. And there are reasons why. CUIs are easy to develop and work cross-platfrom. They are easy to understand because they work just the way we talk and are barrier-free because there is just text and no interface you have to translate. With these advantages I think chatbots came to stay.</p>
+			
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="spacing"></div>
+<div class="spacing-mobile"></div>
+<div class="spacing"></div>
+<div class="spacing-mobile"></div>
+<div id="raster">
+	<div id="cv">
+		<div class="zelle-2">
+			<img src="img/roqy_6.png" width="100%">
+		</div>
+
+		<div class="zelle-2">
+		
+			<div class="vertical-align">
+			<h5>Chatbot Configuration</h5>
+			<p>Here is the main part of ROQY. You can see the configuration environment where you create the bot conversation. We put every snippet of a conversation (being a question and an answer) into a block. On the left we defined blocks which don't need to be in a conversation structure but need to be defined with every bot. These blocks are a welcome message and a block for the event of the bot not understanding what the enduser writes. <br><br>The rest of the conversation is structured into tabs like the folder system of the mac. This is for clarity of the configuration environment and to guide the end user through a conversation.<br><br>With the panel on the right you type the text into the blocks. Here you define wordchunks we call blobs for the input the enduser gives us and with language processing we check if the input is similar to one of our blobs. When this is true the bot gives out the corresponding answer.</p>
+			</div>
+		
+		</div>
+	</div>
+</div>
+
+<div class="clear"></div>
+<div class="spacing"></div>
+<div class="spacing-mobile"></div>
+<div class="spacing"></div>
+<div class="spacing-mobile"></div>
+<div id="raster">
+	<div id="cv">
+		
+
+		<div class="zelle-2">
+	
+			<div class="vertical-align">
+			<h5>Testing</h5>
+			<p>You can test your bot to check on mistakes in the conversation flow. You can switch between bot configuration and testing anytime. When you are satisfied with it, you can deploy the bot.</p>
+			</div>
+		</div>
+
+		<div class="zelle-2">
+			<img src="img/roqy_7.png" width="100%">
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="spacing"></div>
+<div class="spacing-mobile"></div>
+<div class="spacing"></div>
+<div class="spacing-mobile"></div>
+
+<div id="raster">
+	<img id="quickpay_mainscreen" src="img/roqy_footer.png">
+</div>
+
+<div class="clear"></div>
+<div class="spacing"></div>
+<div class="spacing-mobile"></div>
+
+
+<div  data-include="footer"></div>
+
+
+
+</body>
+</html>

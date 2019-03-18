@@ -1,0 +1,628 @@
+html, body {
+	font-family: 'Karla', sans-serif;
+	height: 100%;
+	/*letter-spacing: 1px;*/
+
+}
+
+#raster {
+	max-width: 1280px;
+	margin: 20px auto;
+	padding: 0 40px;
+
+}
+
+#raster-links {
+	max-width: 45%;
+	display: inline;
+	float: left;
+	margin: 0 2.5% 50px;
+}
+
+.zelle-1, .zelle-2, .zelle-3, .zelle-4, .zelle-5 {
+	display: inline;
+	float: left;
+	margin: 10px 4% 30px;
+}
+
+.zelle-1 {
+	width: 17%;
+}
+
+.zelle-2 {
+	width: 42%;
+}
+
+.zelle-3 {
+	width: 60%;
+}
+
+.zelle-4 {
+	width: 92%;
+}
+
+.zelle-5 {
+	width: CALC(76% / 3);
+}
+
+.zelle-4resume {
+	width: 92%;
+	display: inline;
+	float: left;
+	margin: 0 4% ;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+.parent-vertical-align {
+	display:flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+#headerwrapper {
+	background-color: /*#FFD400; #DC3E01*/ ;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#cv a {
+	text-decoration: solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+  color: #ffb400;
+}
+
+#header ul a {
+	color: #ffb400;	
+	
+
+}
+
+ #footer a {
+	color: #fff;	
+	text-decoration: solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+
+}
+
+
+/*HEADER*/
+
+ #header {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items:center;
+	padding: 20px 50px;
+}
+
+#navi li {
+	display: inline;
+	font-size: 14px;
+	padding-left: 20px;
+	font-weight: bold;
+} 
+
+h1 {
+	font-size: 22px;
+	font-weight: 700;
+	
+}
+
+h2 {
+	font-size: 80px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 0.02em;
+	line-height: 1.25;
+}
+
+#willkommen-2 h2 {
+
+	margin-top: 20%;
+
+}
+
+h5 {
+
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 15px 0;
+}
+
+h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+
+
+p {
+	line-height: 20px;
+	font-size: 16px;
+	
+}
+
+#cv h5 {
+	color: #a8afb3;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+#cv h4 {
+	text-transform: none;
+
+}
+
+
+
+#willkommen {
+
+display: flex;
+align-items: center;
+justify-content: center;
+max-height: 70%;
+height: 700px;
+}
+
+
+
+#arrows {
+	font-size: 18px;
+	position: absolute;
+	bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 50%;
+	 transform: translate(-50%, -50%);
+}
+
+
+
+/*.statement {
+	background-color: #ffb400;
+	height: 80vh;
+	width: 100%;
+	display: inline-block;
+
+}
+.statement-text {
+	padding: 4%;
+	display: inline;
+}
+
+.statement-image {
+	background: url(img/me.png) center center / cover no-repeat;
+	display: inline;
+	float: left;
+	height: 80vh;
+	width: 50vw;
+	overflow: hidden;
+
+}
+
+*/
+
+.statement-text p {
+	font-size: calc(11px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	line-height: 1.45;
+}
+
+.statement {
+	display: flex;
+	height: 80vh;
+	background-color: #ffb400;
+}
+
+.statement-image {
+	background: url(img/me.png) center center / cover no-repeat;
+
+	}
+
+	.statement-text  {
+		padding: 5%;
+	}
+
+.statement-text, .statement-image {
+		float: left;
+		 width: 50%;
+}
+
+
+/*#willkommen .bg {
+	background-image: url(Captcha.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	top:0;
+	bottom: 0;
+	right: 0;
+}*/
+
+mark {
+	background-color: #ffb400;
+}
+
+
+#willktext-2 {
+	max-width: 75%;
+	margin-bottom: 100px;
+}
+
+#willktext p {
+	font-size: 32px;
+	line-height: 1.45;
+	max-width: 70%;
+}
+
+#art1 {
+
+}
+
+#footer {
+	clear: both;
+	background-color: #000;
+	padding: 75px;
+	margin-top: 75px
+}
+
+
+#footer p, #footer a {
+	color: #fff;
+	line-height: 1.5;
+}
+
+
+
+#downloadit {
+	/*position: fixed;
+	bottom: 50%;
+	left: 0;
+	-moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    transform-origin: center, center; */
+
+    	
+	transform: rotate(0deg);
+	bottom: 0%;
+	
+}
+
+
+
+
+#downloadit a {
+	color: #ffb400;	
+	text-decoration: solid underline;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+}
+
+p, h1, h2, h3, h4, h5, a {
+	color: #1e2022;
+}
+
+.spacing {
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+.flex-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.flex-row2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.fleximage {
+
+}
+
+.fleximage img {
+
+}
+
+
+.flextext {
+   
+}
+
+.hoveropac figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	margin-bottom: 30px;
+}
+.hoveropac figure:hover img {
+	opacity: .5;
+}
+
+.icon {
+	margin-top: 40px;
+	margin-right: 25px;
+}
+
+.quickpay-header {
+	background-image: url(img/quickpay1.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 55% auto;
+    height: 100%;
+}
+
+.ninetofive-header {
+	background-image: url(img/9to5gif2.gif);
+	background-position: center 2vh;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 75% auto;
+    height: 100%;
+    background-color: #ED2027;
+}
+
+.roqy-header {
+	background-image: url(img/roqy_header3.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60% auto;
+    height: 100%;
+}
+
+
+.overheader {
+	height: 80%;
+}
+
+#quickpay_mainscreen {
+	width: 100%;
+}
+
+#ntf_material {
+	max-width: 100%;
+}
+
+.center { 
+	margin: 0 auto; 
+	max-width: 80%; 
+	 display: block;
+}
+
+.blackwrapper {
+	width: 100%;
+	background-color: #000000;
+}
+
+
+
+
+/* RESPONSIIIIIIIIVE */
+
+@media only screen and (max-width: 768px) {
+
+	#arrows {
+		display: none;	}
+
+	#headerwrapper {
+		height: auto;
+	}
+
+    #header {
+    	margin: 0 auto;
+    	max-width: 750px;
+    	padding: 20px;
+
+    }
+
+    	 #header {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items:center;
+	flex-wrap: wrap;
+}
+
+#willkommen {
+    display: flex;
+    align-items: center;
+    margin: 20% 0;
+    }
+
+    #willktext {
+    	max-width: 100%;
+
+    }
+
+    #willktext-2 {
+    	max-width: 100%;
+    	margin-bottom: 70px;
+    }
+
+     #willktext p {
+     	max-width: 100%;
+     }
+
+     #willktext-2 p {
+     	max-width: 100%;
+     }
+
+	h1 {
+		width: 100%;
+		margin-bottom: 20px;
+		font-size: 24px;
+	}
+
+#navi li {
+	display: inline;
+	font-size: 24px;
+	padding-right: 10px;
+	padding-left: 0;
+
+} 
+
+    #raster {
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 0 20px;
+	}
+
+	.raster-2 {
+	margin: 100px auto; !important;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	#willktext p {
+		font-size: 18px;
+	}
+
+	.hoveropac figure img {
+	width: 100%;
+	height: auto;
+}
+
+	.zelle-1 {
+	width: 100%;
+	margin: 10px 0 30px;
+}
+
+	.zelle-2 {
+	width: 100%;
+	margin: 10px 0 30px;
+}
+
+.spacing-mobile {
+	margin-bottom: 30px;
+
+}
+
+.parent-vertical-align {
+    display: flex;
+    align-items: top;
+    height: auto;
+}
+
+	#footer {
+		padding: 20px 0;
+	}
+
+.spacing {
+	margin-bottom: 0px;
+}
+
+.fleximage {
+	margin-bottom: 60px;
+}
+
+#downloadit {
+
+	position: relative;
+	transform: rotate(0deg);
+	bottom: 0%;
+
+}
+
+
+
+#raster-links {
+	max-width: 100%;
+	margin: 0;
+}
+
+.zelle-4 {
+	margin: 10px 0 30px;
+}
+
+.zelle-4resume {
+	margin: 0;
+}
+
+.statement {
+	flex-direction: column;
+	height: auto;
+	margin-bottom: 50px;
+}
+.statement-text, .statement-image {
+		
+		width: 100%;
+		
+}
+
+.statement-image {
+	height: 350px;
+	 }
+
+.statement-text {
+		box-sizing: border-box;
+		padding: 10% 5%;
+
+}
+
+.quickpay-header {
+    background-image: url(img/quickpay1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    height: 100%;
+}
+
+.ninetofive-header {
+	  background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    height: 100%;
+}
+
+.roqy-header {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    height: 100%;
+
+}
+
+.center {
+    max-width: 100%;
+
+
+}
